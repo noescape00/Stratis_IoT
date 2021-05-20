@@ -1,6 +1,6 @@
 
-#include "../../core/util/bytes.h"
-#include "../../core/util/error.h"
+#include "../core/util/bytes.h"
+#include "../core/util/error.h"
 #ifndef __ZK_CRYPTO_H__
 #define __ZK_CRYPTO_H__
 

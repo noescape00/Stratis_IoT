@@ -33,14 +33,14 @@
  *******************************************************************************/
 
 #include "signer.h"
-#include "../../core/client/keys.h"
-#include "../../core/client/plugin.h"
-#include "../../core/client/request_internal.h"
-#include "../../core/util/mem.h"
-#include "../../core/util/utils.h"
-#include "../../third-party/crypto/ecdsa.h"
-#include "../../third-party/crypto/secp256k1.h"
-#include "../../verifier/eth1/nano/serialize.h"
+#include "../core/client/keys.h"
+#include "../core/client/plugin.h"
+#include "../core/client/request_internal.h"
+#include "../core/util/mem.h"
+#include "../core/util/utils.h"
+#include "../third-party/crypto/ecdsa.h"
+#include "../third-party/crypto/secp256k1.h"
+#include "../verifier/eth1/nano/serialize.h"
 #include <string.h>
 
 typedef struct signer_key {

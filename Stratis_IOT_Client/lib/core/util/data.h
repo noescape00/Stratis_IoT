@@ -122,7 +122,15 @@ int32_t                d_intd(const d_token_t* item, const uint32_t def_val);   
 uint64_t               d_long(const d_token_t* item);                                                               /**< returns the value as long. only if type is integer or bytes, but short enough */
 uint64_t               d_longd(const d_token_t* item, const uint64_t def_val);                                      /**< returns the value as long or if NULL the default. only if type is integer or bytes, but short enough */
 bytes_t**              d_create_bytes_vec(const d_token_t* arr);                                                    /** creates a array of bytes from JOSN-array */
-static inline d_type_t d_type(const d_token_t* item) { return (item ? ((item->len & 0xF0000000) >> 28) : T_NULL); } /**< type of the token */
+
+static inline d_type_t d_type(const d_token_t* item) 
+{
+  if (item == NULL)
+    return T_NULL;
+ 
+  return (d_type_t)(((item->len & 0xF0000000) >> 28)); 
+} /**< type of the token */
+
 static inline int      d_len(const d_token_t* item) {                                                               /**< number of elements in the token (only for object or array, other will return 0) */
   if (item == NULL) return 0;
   return item->len & 0xFFFFFFF;

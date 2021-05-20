@@ -33,17 +33,17 @@
  *******************************************************************************/
 
 #include "multisig.h"
-#include "../../core/client/client.h"
-#include "../../core/client/keys.h"
-#include "../../core/client/request.h"
-#include "../../core/client/request_internal.h"
-#include "../../core/util/log.h"
-#include "../../core/util/mem.h"
-#include "../../core/util/utils.h"
-#include "../../third-party/crypto/ecdsa.h"
-#include "../../third-party/crypto/secp256k1.h"
-#include "../../verifier/eth1/nano/rlp.h"
-#include "../../verifier/eth1/nano/serialize.h"
+#include "../core/client/client.h"
+#include "../core/client/keys.h"
+#include "../core/client/request.h"
+#include "../core/client/request_internal.h"
+#include "../core/util/log.h"
+#include "../core/util/mem.h"
+#include "../core/util/utils.h"
+#include "../third-party/crypto/ecdsa.h"
+#include "../third-party/crypto/secp256k1.h"
+#include "../verifier/eth1/nano/rlp.h"
+#include "../verifier/eth1/nano/serialize.h"
 
 bool ecrecover_sig(bytes32_t hash, uint8_t* sig, address_t result) {
 

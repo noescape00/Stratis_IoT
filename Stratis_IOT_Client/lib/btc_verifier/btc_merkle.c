@@ -1,6 +1,6 @@
 #include "btc_merkle.h"
-#include "../../core/util/mem.h"
-#include "../../third-party/crypto/sha2.h"
+#include "../core/util/mem.h"
+#include "../third-party/crypto/sha2.h"
 #include "btc_serialize.h"
 #include <stdint.h>
 #include <string.h>

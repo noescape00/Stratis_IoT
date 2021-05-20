@@ -34,9 +34,9 @@
 #ifndef in3_ledger_utility_h__
 #define in3_ledger_utility_h__
 
-#include "../../../core/client/client.h"
-#include "../../../third-party/crypto/ecdsa.h"
-#include "../../../third-party/crypto/secp256k1.h"
+#include "../../core/client/client.h"
+#include "../../third-party/crypto/ecdsa.h"
+#include "../../third-party/crypto/secp256k1.h"
 
 void     extract_signture(bytes_t i_raw_sig, uint8_t* o_sig);
 int      get_recid_from_pub_key(const ecdsa_curve* curve, uint8_t* pub_key, const uint8_t* sig, const uint8_t* digest);

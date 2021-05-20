@@ -1,8 +1,7 @@
 #include "btc_serialize.h"
-#include "../../core/util/data.h"
-#include "../../core/util/utils.h"
-#include "../../third-party/crypto/sha2.h"
-#include "../../third-party/tommath/tommath.h"
+#include "../core/util/data.h"
+#include "../core/util/utils.h"
+#include "../third-party/crypto/sha2.h"
 #include "btc_types.h"
 #include <string.h>
 

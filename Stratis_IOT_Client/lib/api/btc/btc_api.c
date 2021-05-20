@@ -33,10 +33,10 @@
  *******************************************************************************/
 
 #include "btc_api.h"
-#include "../../core/client/plugin.h"
-#include "../../core/util/mem.h"
-#include "../../verifier/btc/btc_serialize.h"
-#include "../../verifier/btc/btc_types.h"
+#include "../core/client/plugin.h"
+#include "../core/util/mem.h"
+#include "../verifier/btc/btc_serialize.h"
+#include "../verifier/btc/btc_types.h"
 #include "../utils/api_utils_priv.h"
 
 /**

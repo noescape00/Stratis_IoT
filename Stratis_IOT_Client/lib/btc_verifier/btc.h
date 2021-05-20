@@ -10,7 +10,7 @@
 extern "C" {
 #endif
 
-#include "../../core/client/plugin.h"
+#include "../core/client/plugin.h"
 
 /**
  * this function should only be called once and will register the bitcoin verifier.

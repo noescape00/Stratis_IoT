@@ -33,8 +33,8 @@
  *******************************************************************************/
 
 #include "api_utils.h"
-#include "../../core/client/plugin.h"
-#include "../../core/util/mem.h"
+#include "../core/client/plugin.h"
+#include "../core/util/mem.h"
 #include "api_utils_priv.h"
 
 // forward decl

@@ -44,7 +44,7 @@
 extern "C" {
 #endif
 
-#include "../../core/client/client.h"
+#include "../core/client/client.h"
 
 typedef enum {
   hasher_sha2,

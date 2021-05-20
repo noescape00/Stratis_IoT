@@ -34,7 +34,7 @@
 #ifndef in3_ethereum_apdu_client_priv_h__
 #define in3_ethereum_apdu_client_priv_h__
 
-#include "../../../core/client/client.h"
+#include "../../core/client/client.h"
 
 void      read_bip32_path(uint8_t path_length, const uint8_t* path, uint32_t* bip32_path);
 in3_ret_t eth_ledger_sign_txn(void* p_data, in3_plugin_act_t action, void* p_ctx);

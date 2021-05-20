@@ -1,5 +1,5 @@
 #include "utility.h"
-#include "../../../core/util/log.h"
+#include "../../core/util/log.h"
 #include "types.h"
 
 void extract_signture(bytes_t i_raw_sig, uint8_t* o_sig) {

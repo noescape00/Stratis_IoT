@@ -1,9 +1,9 @@
 #ifndef _BTC_SERIALIZE_H
 #define _BTC_SERIALIZE_H
 
-#include "../../core/util/bytes.h"
-#include "../../core/util/data.h"
-#include "../../core/util/error.h"
+#include "../core/util/bytes.h"
+#include "../core/util/data.h"
+#include "../core/util/error.h"
 #include <stdint.h>
 
 /** type of a token. */

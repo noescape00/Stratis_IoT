@@ -107,8 +107,9 @@ void cycles(volatile uint64_t *rtn)
         mov     [ecx+4],edx
         cpuid
     }
-#elif defined( __GNUC__ )
-    __asm__ __volatile__("rdtsc": "=A" (*rtn));
+// TODO
+//#elif defined( __GNUC__ )
+//    __asm__ __volatile__("rdtsc": "=A" (*rtn));
 #endif
 }
 

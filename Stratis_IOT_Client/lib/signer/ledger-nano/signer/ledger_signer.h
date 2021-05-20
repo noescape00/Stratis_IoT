@@ -46,7 +46,7 @@
 extern "C" {
 #endif
 
-#include "../../../core/client/client.h"
+#include "../../core/client/client.h"
 
 /**
  * attaches ledger nano hardware wallet signer  with incubed .

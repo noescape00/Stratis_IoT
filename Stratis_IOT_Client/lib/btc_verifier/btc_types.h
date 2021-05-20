@@ -1,9 +1,9 @@
 #ifndef _BTC_TYPES_H
 #define _BTC_TYPES_H
 
-#include "../../core/util/bytes.h"
-#include "../../core/util/data.h"
-#include "../../core/util/error.h"
+#include "../core/util/bytes.h"
+#include "../core/util/data.h"
+#include "../core/util/error.h"
 #include <stdint.h>
 
 typedef struct btc_tx {

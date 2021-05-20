@@ -34,9 +34,9 @@
 #ifndef in3_ledger_signer_priv_h__
 #define in3_ledger_signer_priv_h__
 
-#include "../../../core/client/client.h"
-#include "../../../third-party/crypto/ecdsa.h"
-#include "../../../third-party/crypto/secp256k1.h"
+#include "../../core/client/client.h"
+#include "../../third-party/crypto/ecdsa.h"
+#include "../../third-party/crypto/secp256k1.h"
 #include "types.h"
 
 in3_ret_t is_ledger_device_connected();

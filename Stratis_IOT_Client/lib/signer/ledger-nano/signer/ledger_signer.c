@@ -2,9 +2,9 @@
 #include <windows.h>
 #endif
 
-#include "../../../core/client/request.h"
-#include "../../../core/util/bytes.h"
-#include "../../../core/util/log.h"
+#include "../../core/client/request.h"
+#include "../../core/util/bytes.h"
+#include "../../core/util/log.h"
 #include "device_apdu_commands.h"
 #include "ledger_signer.h"
 #include "ledger_signer_priv.h"

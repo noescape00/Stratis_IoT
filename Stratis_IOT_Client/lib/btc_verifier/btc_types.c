@@ -1,5 +1,5 @@
 #include "btc_types.h"
-#include "../../core/util/mem.h"
+#include "../core/util/mem.h"
 #include "btc_serialize.h"
 
 uint8_t* btc_parse_tx_in(uint8_t* data, btc_tx_in_t* dst, uint8_t* limit) {

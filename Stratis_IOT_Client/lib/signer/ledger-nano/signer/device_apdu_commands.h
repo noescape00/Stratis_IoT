@@ -35,8 +35,8 @@
 #ifndef in3_device_apdu_h__
 #define in3_device_apdu_h__
 
-#include "../../../core/client/client.h"
-#include "../../../third-party/hidapi/hidapi/hidapi.h"
+#include "../../core/client/client.h"
+#include "../../third-party/hidapi/hidapi/hidapi.h"
 
 #define HID_CMD_MIN_LEN  64
 #define HID_CMD_MID_LEN  128

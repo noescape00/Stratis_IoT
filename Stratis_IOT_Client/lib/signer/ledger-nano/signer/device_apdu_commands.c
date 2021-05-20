@@ -2,7 +2,7 @@
 #include <windows.h>
 #endif
 
-#include "../../../core/util/log.h"
+#include "../../core/util/log.h"
 #include "device_apdu_commands.h"
 #include "types.h"
 #include "utility.h"

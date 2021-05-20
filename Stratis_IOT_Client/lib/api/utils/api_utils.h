@@ -44,7 +44,7 @@
 extern "C" {
 #endif
 
-#include "../../core/client/client.h"
+#include "../core/client/client.h"
 
 /**
  * a 32 byte long integer used to store ethereum-numbers.

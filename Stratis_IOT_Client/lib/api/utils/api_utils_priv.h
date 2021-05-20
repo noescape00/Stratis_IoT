@@ -35,12 +35,12 @@
 #ifndef IN3_API_UTILS_PRIV_H
 #define IN3_API_UTILS_PRIV_H
 
-#include "../../core/client/keys.h"
-#include "../../core/client/request.h"
-#include "../../core/util/data.h"
-#include "../../core/util/error.h"
-#include "../../core/util/log.h"
-#include "../../core/util/utils.h"
+#include "../core/client/keys.h"
+#include "../core/client/request.h"
+#include "../core/util/data.h"
+#include "../core/util/error.h"
+#include "../core/util/log.h"
+#include "../core/util/utils.h"
 #ifdef __ZEPHYR__
 #include <zephyr.h>
 #else

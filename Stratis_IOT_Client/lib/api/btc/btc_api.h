@@ -45,8 +45,8 @@
 extern "C" {
 #endif
 
-#include "../../core/client/client.h"
-#include "../../core/util/bytes.h"
+#include "../core/client/client.h"
+#include "../core/util/bytes.h"
 #include "../utils/api_utils.h"
 
 /**< The current error or null if all is ok */
